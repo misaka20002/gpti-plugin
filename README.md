@@ -18,13 +18,13 @@
 #### 1. 克隆仓库
 
 ```
-git clone https://github.com/CikeyQi/gpti-plugin.git ./plugins/gpti-plugin
+git clone https://github.com/misaka20002/gpti-plugin.git ./plugins/gpti-plugin
 ```
 
 > [!NOTE]
 > 如果你的网络环境较差，无法连接到Github，可以使用 [GitHub Proxy](https://mirror.ghproxy.com/) 提供的文件代理加速下载服务
 > ```
-> git clone https://mirror.ghproxy.com/https://github.com/CikeyQi/gpti-plugin.git ./plugins/gpti-plugin
+> git clone https://mirror.ghproxy.com/https://github.com/misaka20002/gpti-plugin.git ./plugins/gpti-plugin
 > ```
 
 #### 2. 安装依赖
