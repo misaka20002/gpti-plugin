@@ -17,7 +17,8 @@ export class emi_use extends plugin {
                     /** 命令正则匹配 */
                     reg: '^#ee([\\s\\S]*)$',
                     /** 执行方法 */
-                    fnc: 'processContent'
+                    fnc: 'processContent',
+                    permission: 'master'
                 }
             ]
         })

@@ -21,7 +21,8 @@ export class Update extends plugin {
       rule: [
         {
           reg: '^#gpti((插件)?(强制)?更新| update)$',
-          fnc: 'update'
+          fnc: 'update',
+          permission: 'master'
         }
       ]
     })

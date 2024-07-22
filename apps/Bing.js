@@ -21,7 +21,8 @@ export class bing_use extends plugin {
                     /** 命令正则匹配 */
                     reg: '^#bb([\\s\\S]*)$',
                     /** 执行方法 */
-                    fnc: 'processContent'
+                    fnc: 'processContent',
+                    permission: 'master'
                 }
             ]
         })

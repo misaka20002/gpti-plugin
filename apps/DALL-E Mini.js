@@ -17,7 +17,8 @@ export class dalle_mini_use extends plugin {
                     /** 命令正则匹配 */
                     reg: '^#dm([\\s\\S]*)$',
                     /** 执行方法 */
-                    fnc: 'processContent'
+                    fnc: 'processContent',
+                    permission: 'master'
                 }
             ]
         })

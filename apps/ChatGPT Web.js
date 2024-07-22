@@ -18,7 +18,8 @@ export class gptweb_use extends plugin {
                     /** 命令正则匹配 */
                     reg: '^#gw([\\s\\S]*)$',
                     /** 执行方法 */
-                    fnc: 'processContent'
+                    fnc: 'processContent',
+                    permission: 'master'
                 }
             ]
         })

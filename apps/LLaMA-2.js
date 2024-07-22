@@ -21,7 +21,8 @@ export class llama2_use extends plugin {
                     /** 命令正则匹配 */
                     reg: '^#ll([\\s\\S]*)$',
                     /** 执行方法 */
-                    fnc: 'processContent'
+                    fnc: 'processContent',
+                    permission: 'master'
                 }
             ]
         })

@@ -17,7 +17,8 @@ export class dalle_v1_use extends plugin {
                     /** 命令正则匹配 */
                     reg: '^#dd([\\s\\S]*)$',
                     /** 执行方法 */
-                    fnc: 'processContent'
+                    fnc: 'processContent',
+                    permission: 'master'
                 }
             ]
         })
